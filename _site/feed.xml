@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>REA Coding Practices and Standards</title>
+    <description>Project page for REA Coding Practices and Standards Handbook</description>
+    <link>https://wbuchanan.github.io/reaStandards/</link>
+    <atom:link href="https://wbuchanan.github.io/reaStandards/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 27 Jan 2016 13:34:33 -0600</pubDate>
+    <lastBuildDate>Wed, 27 Jan 2016 13:34:33 -0600</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Office of Research, Evaluation, and Assessment Coding Practices and Standards Handbook</title>
+        <description>&lt;h1 id=&quot;minneapolis-public-schools&quot;&gt;Minneapolis Public Schools&lt;/h1&gt;
+&lt;p&gt;# Office of Research, Evaluation, and Assessment&lt;br /&gt;
+# Coding Practices and Standards Handbook&lt;/p&gt;
+
+&lt;p&gt;This is a simple web template that we can use to provide additional resources/examples/clarification when specific issues come up and also to provide a method to quickly/easily traverse the final document to find entries related to specific questions more easily.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 27 Jan 2016 07:27:00 -0600</pubDate>
+        <link>https://wbuchanan.github.io/reaStandards/post/2016/01/27/default-post.html</link>
+        <guid isPermaLink="true">https://wbuchanan.github.io/reaStandards/post/2016/01/27/default-post.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+  </channel>
+</rss>
