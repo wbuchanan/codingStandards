@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>REA Coding Practices and Standards</title>
+    <title>Version Control</title>
     <meta name="description" content="Project page for REA Coding Practices and Standards Handbook">
 
     <link rel="stylesheet" href="/reaStandards/css/main.css">
-    <link rel="canonical" href="https://wbuchanan.github.io/reaStandards/">
+    <link rel="canonical" href="https://wbuchanan.github.io/reaStandards/version-control/">
 </head>
 
 
@@ -89,23 +89,77 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Version Control</h1>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jan 27, 2016</span>
+  <article class="post-content">
+    <h1 id="intro-to-git-and-version-control-systems">Intro to Git and Version Control Systems</h1>
 
-        <h2>
-          <a class="post-link" href="/reaStandards/post/2016/01/27/default-post.html">Office of Research, Evaluation, and Assessment Coding Practices and Standards Handbook</a>
-        </h2>
-      </li>
-    
-  </ul>
+<h2 id="what-are-version-control-systems">What are version control systems?</h2>
 
-  <p class="rss-subscribe">subscribe <a href="/reaStandards/feed.xml">via RSS</a></p>
+<h2 id="what-is-git">What is Git?</h2>
+
+<h2 id="why-use-git">Why use Git?</h2>
+
+<h2 id="where-do-you-get-git">Where do you get Git?</h2>
+<p>The first step is to get the software on your workstation.  You can download the Git binary from <a href="http://www.git-scm.com">http://www.git-scm.com</a>.  If you are using a Mac/OSX open the Terminal application (/Applications/utilities/Terminal.app) then copy and paste the following into the terminal:</p>
+
+<pre><code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+</code></pre>
+
+<p>Chances are you will also need to install the Apple application <a href="https://developer.apple.com/xcode/download/">Xcode</a> for some of the tools you may want to install later (the Xcode application provides a few different compilers and command line utilities for OSX).  If using a Debian based *nix you can <code>sudo apt-get install git</code> and if you are using a RedHat derivative you can use <code>sudo yum install git</code> to accomplish the same.</p>
+
+<p>If you are not using a *nix-based platform, you will want to make sure to install Git Bash (it is an option when you download Git from the link above).</p>
+
+<h2 id="create-a-repository---git-init">Create a repository - git init</h2>
+
+<h2 id="make-sure-not-to-store-sensitive-data-in-your-repository---the-gitignore-file">Make sure not to store sensitive data in your repository - The .gitignore file</h2>
+<p>Since the majority of our data is protected under FERPA, you should make sure that you do not store any copies of sensitive data in your repository.  The easiest way to do this is by creating a .gitignore file.  If you are in the Git Bash application - or a terminal - you can do this by modifying the code below to point to the directory where your repository exists:</p>
+
+<pre><code># First change directories to the location of your repository
+cd ~/myGitRepo
+
+# Now you can open the vi editor to create the .gitignore file
+vi .gitignore
+
+# Once the vi editor starts up, press the letter `a` on your keyboard to enter into insert mode
+# Then add the following lines to the file
+*.csv
+*.xlsx
+*.txt
+*.dta
+*.sav
+*.por
+*.sas7bdat
+*.RData
+*.Rdata
+*.Rds
+*.dat
+
+# After adding those lines press the `esc` key then enter `:wq` to save the file and close vi
+# Now if you run the command:
+git status
+
+# You should see the new .gitignore file, and should see that none of the files with the types listed above are being tracked
+</code></pre>
+
+<h2 id="save-your-changes---git-add--git-commit">Save your changes - git add &amp;&amp; git commit</h2>
+
+<h2 id="create-a-new-version-of-your-project---git-branch">Create a new version of your project - git branch</h2>
+
+<h2 id="get-a-copy-of-existing-code-for-your-use---git-clone">Get a copy of existing code for your use - git clone</h2>
+
+<h2 id="add-a-remote-repository-to-store-a-copy-of-your-code---git-remote-add">Add a remote repository to store a copy of your code - git remote add</h2>
+
+<h2 id="update-your-changes-on-githubgitlab---git-push">Update your changes on GitHub/Gitlab - git push</h2>
+
+<h2 id="submit-changesupdates-to-collaborative-projects---git-pull">Submit changes/updates to collaborative projects - git pull</h2>
+
+
+  </article>
 
 </div>
 

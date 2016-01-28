@@ -1,59 +1,61 @@
 ---
 layout: page
-title: about
-permalink: /about/
+title: Table of Contents
+permalink: /Overview/
 ---
 
-[title](#REA-Coding-Standards)
 
-Repository used for development of shared coding policies/practices
-
-
-
-[versionControl](##Use-Of-Version-Control)
+[Using Version Control](../versionControl/)
 
 Reserved for version control section. (e.g., use Git, not SVN, CVS, etc...)
 
 
+[Software Development Life Cycle](../sdlc)
 
-[dataManagement](##Data-Management-and-Access)
+Reserved for information about the software development life cycle (e.g., collection of business rules/processes, sprints, etc...)
+
+
+[Data Management and Access](../dataManagement/)
 
 Reserved for data management section. (e.g., a variable should be cast in the same format across all files)
 
 
 
-[meta](##Metadata)
+[Metadata](../metadata/)
 
 Reserved for metadata section. (e.g., variables need labels, categorical variables need labels, include a readme with a project, etc...)
 
 
 
-[naming](##Naming-Conventions)
+[Naming Conventions](../namingConventions/)
 
 Reserved for variable naming conventions section. (e.g., valid characters are [a-zA-Z0-9_], common acronyms/abbreviations and meanings, etc...)
 
 
 
-[coding](##Coding-Practices)
+[Coding Practices](../codingPractices/)
 
 Reserved for coding practices section. (e.g., use library() instead of requires() in R, create packages instead of copying/pasting the same code repeatedly, etc...)
 
 
 
-[versioning](##Versioning-Practices)
+[Versioning Practices](../versioningPractices)
 
 Reserved for versioning practices section. (Use of semantic versioning, e.g., Major.minor.patch and when/how to increment)
 
 
 
-[distributing](##Distribution-Practices)
+[Distributing Code](../distributingCode)
 
 Reserved for code distribution section. (e.g., How to write code that others can use quickly/easily)
 
 
 
-[contributing](##Contributing-To-Existing-And-New-Projects)
+[Contributing to New and Existing Projects](../contributionGuidelines)
 
 Reserved for contribution standards. (e.g., process for adding/contributing code to someone else's project)
+
+
+
 
 
